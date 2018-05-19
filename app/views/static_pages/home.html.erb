@@ -1,0 +1,10 @@
+<h1>Welcome to VC Fund My Life UK!</h1>
+
+<% @deals.each do |deal| %>
+	<p><%= deal.name %></p>
+	<p><%= deal.description %></p>
+	<p><%= deal.category %></p>
+	<p><%= deal.link %></p>
+	<p><%= deal.code %></p>
+	<p><%= deal.offer %></p>
+<% end %>
